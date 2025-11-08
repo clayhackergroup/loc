@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 6,
+    "success_rate": "100.0%",
+    "timestamp": "2025-11-08T18:41:28.699750"
+  },
+  "detailed_results": [
+    {
+      "test": "API Root Endpoint",
+      "success": true,
+      "details": "Status: 200, Response: {\"message\":\"Location Sharing API\"}",
+      "timestamp": "2025-11-08T18:41:21.376312"
+    },
+    {
+      "test": "Share Location to Backend & Telegram",
+      "success": true,
+      "details": "Location shared successfully. ID: 528d4508-00fd-4a52-bf34-e8c68ca3a1aa",
+      "timestamp": "2025-11-08T18:41:22.222889"
+    },
+    {
+      "test": "Get Location History",
+      "success": true,
+      "details": "Retrieved 2 locations",
+      "timestamp": "2025-11-08T18:41:22.265736"
+    },
+    {
+      "test": "Multiple Location Shares",
+      "success": true,
+      "details": "Successfully shared 3/3 locations",
+      "timestamp": "2025-11-08T18:41:28.616729"
+    },
+    {
+      "test": "Clear Location History",
+      "success": true,
+      "details": "Deleted 5 locations",
+      "timestamp": "2025-11-08T18:41:28.659340"
+    },
+    {
+      "test": "Get Location History",
+      "success": true,
+      "details": "Retrieved 0 locations",
+      "timestamp": "2025-11-08T18:41:28.698896"
+    }
+  ]
+}
